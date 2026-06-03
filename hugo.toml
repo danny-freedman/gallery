@@ -4,8 +4,8 @@
 # ============================================================
 
 baseURL = "https://danny-freedman.github.io/gallery/"
-title = "Daniel Freedman"
-copyright = "© Danny"
+title = "Gallery"
+copyright = "© Daniel Freedman"
 theme = "gallery"
 
 defaultContentLanguage = "en"
@@ -21,19 +21,20 @@ timeout = "120s"
 [params]
   # ---- THIS is the light-theme switch ----
   defaultTheme = "light"
-  title = "Gallery"
-  description = "Street photography and more by Danny."
+  title = "Daniel Freedman"
+  description = "A digital photobook"
   [params.author]
-    name = "Danny"
+    name = "Danny Freedman"
     email = "dannyzfreedman@gmail.com"
   [params.socialIcons]
     # Uncomment and fill in any you want shown; delete the rest.
-    #instagram = "https://www.instagram.com/danny_freedman"
-    #email = "mailto:dannyzfreedman@gmail.com"
+    instagram = "https://www.instagram.com/danny_freedman"
+    email = "mailto:dannyzfreedman@gmail.com"
+    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
   [params.gallery]
     # Optional layout tuning — defaults are good; uncomment to adjust.
-    #targetRowHeight = 288   # taller = bigger thumbnails, fewer per row
-    #boxSpacing = 10         # gap between images in px
+    targetRowHeight = 288   # taller = bigger thumbnails, fewer per row
+    boxSpacing = 10         # gap between images in px
 
 # ---- Image quality: single high-quality encode ----
 # quality 92 + Lanczos is sharp and color-accurate.
