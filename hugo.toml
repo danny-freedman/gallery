@@ -1,0 +1,58 @@
+# ============================================================
+#  hugo.toml — Danny's Photography Portfolio
+#  Replace YOURUSERNAME below with your GitHub username.
+# ============================================================
+
+baseURL = "https://danny-freedman.github.io/gallery/"
+title = "Daniel Freedman"
+copyright = "© Danny"
+theme = "gallery"
+
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+timeZone = "America/New_York"
+timeout = "120s"
+
+# Clears the languageCode deprecation warning (Hugo 0.158+)
+[languages.en]
+  locale = "en-US"
+
+[params]
+  # ---- THIS is the light-theme switch ----
+  defaultTheme = "light"
+  title = "Gallery"
+  description = "Street photography and more by Danny."
+  [params.author]
+    name = "Danny"
+    email = "dannyzfreedman@gmail.com"
+  [params.socialIcons]
+    # Uncomment and fill in any you want shown; delete the rest.
+    #instagram = "https://www.instagram.com/danny_freedman"
+    #email = "mailto:dannyzfreedman@gmail.com"
+  [params.gallery]
+    # Optional layout tuning — defaults are good; uncomment to adjust.
+    #targetRowHeight = 288   # taller = bigger thumbnails, fewer per row
+    #boxSpacing = 10         # gap between images in px
+
+# ---- Image quality: single high-quality encode ----
+# quality 92 + Lanczos is sharp and color-accurate.
+[imaging]
+  quality = 92
+  resampleFilter = "Lanczos"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true   # strips GPS location from published photos (privacy)
+    includeFields = "ImageDescription|Orientation"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[services]
+  [services.rss]
+    limit = 100
