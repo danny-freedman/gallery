@@ -4,7 +4,7 @@
 # ============================================================
 
 baseURL = "https://danny-freedman.github.io/gallery/"
-title = "Gallery"
+title = "Daniel Freedman"
 copyright = "© Daniel Freedman"
 theme = "gallery"
 
