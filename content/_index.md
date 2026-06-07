@@ -2,10 +2,6 @@
 description: a digital photobook. 
 #lastmod: 2023-07-05
 title: my gallery
-resources:
-  - src: martin-martz-wRuhOOaG-Z4-unsplash.jpg
-    params:
-      cover: true # cover of the home page is used for OpenGraph cards, etc.
 menus:
   main:
     name: Home

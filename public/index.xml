@@ -10,6 +10,26 @@
     <webMaster>dannyzfreedman@gmail.com (Danny Freedman)</webMaster>
     <copyright>© Daniel Freedman</copyright><atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Amtrak NE Regional, May 2026</title>
+      <link>http://localhost:1313/gallery/train_may_26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>dannyzfreedman@gmail.com (Danny Freedman)</author>
+      <guid>http://localhost:1313/gallery/train_may_26/</guid>
+        <media:content url="http://localhost:1313/gallery/train_may_26/P1050840_hu_5093778ca99b8b1c.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/gallery/train_may_26/P1050840_hu_5093778ca99b8b1c.jpg&quot; /&gt;
+          &lt;p&gt;Looking out the window.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Baltimore, June 2026</title>
+      <link>http://localhost:1313/gallery/bmore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>dannyzfreedman@gmail.com (Danny Freedman)</author>
+      <guid>http://localhost:1313/gallery/bmore/</guid>
+        <media:content url="http://localhost:1313/gallery/bmore/P1060092_hu_d4d140711d41b363.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/gallery/bmore/P1060092_hu_d4d140711d41b363.jpg&quot; /&gt;
+          &lt;p&gt;My neighborhood.&lt;/p&gt;
+        </description></item>
+    <item>
       <title>New York City, May 2026</title>
       <link>http://localhost:1313/gallery/nyc_may_26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>dannyzfreedman@gmail.com (Danny Freedman)</author>
