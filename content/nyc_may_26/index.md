@@ -1,11 +1,11 @@
 ---
   title: New York City, May 2026
-  description: A little of what caught my eye. 
-  weight: 1
+  description: A little of what caught my eye. Fuji. 
   build: 
     publishResources: false
   resources:
-  - src: P1050646.jpg
+  - src: P1050679-1.jpg
     params:
-        cover: true   
+        cover: true 
+        weight: 1  
 ---
